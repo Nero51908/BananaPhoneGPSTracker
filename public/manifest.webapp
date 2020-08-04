@@ -1,0 +1,23 @@
+{
+  "name": "GPS Tracker",
+  "description": "Tell me where this phone is.",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/logo128.png"
+  },
+  "developer": {
+    "name": "Nero",
+    "url": "http://github.com/nero51908"
+  },
+  "permissions": {
+    "geolocation": {
+      "description": "To display your current location."
+    },
+    "mobilenetwork": {
+      "description": "Allow me to use mobile network by default."
+    },
+    "sms": {
+      "description": "Use WebSMS API."
+    }
+  }
+}
